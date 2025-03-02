@@ -1,0 +1,114 @@
+/* defining styles for ibomma application */
+body{
+	background:#222; /* lightblack */
+	color:white;
+}
+
+/* header section */
+.header{
+	background:#252525;
+	margin-bottom:50px;
+	display:flex;
+	justify-content:space-between;
+	padding:15px 25px;
+}
+.header img{
+	width:180px;
+	height:70px;
+}
+.header div:last-child{
+	
+	background:#ffff66;
+	height:26px;
+	border-radius:13px;
+	padding:0 10px 0 0;
+}
+.header input{
+	outline:none;
+	border:none;
+	background:#333;
+	height:26px;
+	color:#fff;	
+	border-radius:13px 0 0 13px;
+	padding:0 3px;	
+}
+/* slogan section */
+.slogon{
+	text-align:center;
+	margin-bottom:60px;
+	color:#eee;
+}
+.slogon div{
+	font-size:250%;
+	font-family:Tahoma;
+	
+}
+.slogon p{
+	color:#ddd;
+	font-size:110%;
+	
+	
+}
+/* footer section */
+.footer{
+	background:#333;
+	color:#ddd;
+	padding:40px 35px;
+	display:flex;
+	justify-content:space-between;
+}
+/* grid layout */
+.grid-box{
+	background:;
+	width:90%;
+	margin:auto;
+	display:grid; /* 20rX1c */
+	/* grid-template-columns:300px 300px 300px 400px; OR */
+	grid-template-columns:auto auto auto auto auto; 
+	grid-template-rows:auto auto auto auto;
+	/* column-gap:10px;
+	row-gap:10px; */
+	grid-gap:10px;
+	margin-bottom:40px;
+	transition:800ms linear;
+}
+.grid-box img{
+	width:100%;
+	height:290px;
+	border-radius:10px;
+}
+.grid-item{
+	margin-bottom:20px;
+}
+.grid-box a{
+	color:#fff;
+	text-decoration:none;
+	font-size:120%;
+}
+.grid-box div:last-child{
+  color:#ddd;
+  background:#2e2e2e;
+  /* display:inline-block; */
+  padding:2px;
+}
+
+.grid-box a:hover{
+	color:#33ffff;
+}
+.grid-box .grid-item div:last-child{
+	color:#ffff33;
+	/* color:#ddd; */
+	background:#2e2e2e;
+  display:inline-block;
+  padding:2px;
+
+}
+.grid-box:hover > :not(:hover){
+	filter:; /* blur(7px) */
+}
+
+/*
+.grid-box .grid-item:hover{
+	transform:scale(1.1);
+	
+} */
